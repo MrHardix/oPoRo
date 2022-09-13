@@ -4,7 +4,7 @@ const { Prefix } = require("../../config.js");
 
 module.exports = {
   name: "help",
-  aliases: ["helpme", "help"],
+  aliases: ["h", "Help"],
   description: "Show Help Command",
   usage: "Help",
   run: async(client, message, args) => {
@@ -13,43 +13,36 @@ module.exports = {
     
     let embed = new MessageEmbed()
     .setColor("RANDOM")
-    .setTitle(`Help Renon!`)
+    .setTitle(`Help oPoRo!`)
 
     .setDescription(`
  
-︙**Info** 
+<a:infooporo:823333203459702836>︙**Info** 
 \`help\`, \`ping\`, \`Server\`,
 \`userinfo\`, \`invite\`, \`uptime\`
 \`say\`, \`uinvite\`, \`roles\`
 \`stats\`, \`listemoji\`, \`se <emoji>\`,
-
-︙**Moderation** 
+<a:modoporo:858281897096118272>︙**Moderation** 
 \`ban\`, \`unban\`, \`kick\`,
 \`mute\`, \`unmute\`, \`clear\`
 \`lock\`, \`unlock\`, \`slowmode\`
 \`nick\`, \`hide\`, \`unhide\` 
-
-︙**Funny**
+<a:funnyoporo:803086992044589096>︙**Funny**
 \`ascii\`, \`avatar\`, \`dicksize\`,
 \`howgay\`, \`rate\`, 
-
-︙**Gifs**
+<a:gifoporo:854036186868088872>︙**Gifs**
 \`boy\`, \`girl\`, \`anime\`,
 \`animal\`, \`baby\`, \`couple\`,
 \`emoji\`, 
-
-︙**Photos** 
-\`+boy\`, \`+girl\`, \`+anime\`,
-\`+animal\`, \`+baby\`, \`+couple\`,
-\`+emoji\`
-
-︙**Texts**
+<a:photooporo:854036253778247742>︙**Photos** 
+\`Pboy\`, \`Pgirl\`, \`Panime\`,
+\`Panimal\`, \`Pbaby\`, \`Pcouple\`,
+\`Pemoji\`
+<a:textoporo:823650640541909012>︙**Texts**
 \`textkurd\` (tk) , \`textenglish\` (te)
 \`textarab\` (ta) , \`textturk\` (tt) 
 \`textpersian\` (tp)
-
-[Server](https://discord.gg/65X5Gfkq) **-** [Invite Renon](https://discord.com/api/oauth2/authorize?client_id=779009713027022898&permissions=8&scope=bot)
-
+[Server](https://discord.gg/VWuQfQfjc9) **-** [Invite oPoRo](https://discord.com/api/oauth2/authorize?client_id=814608707412295780&permissions=8&scope=bot)
 `)
     .setFooter(`${message.author.username}`)
   //  .setImage(``)
