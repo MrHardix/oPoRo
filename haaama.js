@@ -14,7 +14,7 @@ client.on("ready", async () => {
   console.log(`ready!`);
   client.user
        .setActivity(`${Prefix}help | ${client.guilds.cache.size} Server`, { type: "PLAYING" })
-       .setActivity(`HaaaMa`)
+       .setActivity(`Renon`)
     .catch(error => console.log(error));
 });
 
