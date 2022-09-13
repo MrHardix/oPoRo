@@ -13,37 +13,37 @@ module.exports = {
     
     let embed = new MessageEmbed()
     .setColor("RANDOM")
-    .setTitle(`Help oPoRo!`)
+    .setTitle(`Help Renon!`)
 
     .setDescription(`
  
-<a:infooporo:823333203459702836>︙**Info** 
+︙**Info** 
 \`help\`, \`ping\`, \`Server\`,
 \`userinfo\`, \`invite\`, \`uptime\`
 \`say\`, \`uinvite\`, \`roles\`
 \`stats\`, \`listemoji\`, \`se <emoji>\`,
 
-<a:modoporo:858281897096118272>︙**Moderation** 
+︙**Moderation** 
 \`ban\`, \`unban\`, \`kick\`,
 \`mute\`, \`unmute\`, \`clear\`
 \`lock\`, \`unlock\`, \`slowmode\`
 \`nick\`, \`hide\`, \`unhide\` 
 
-<a:funnyoporo:803086992044589096>︙**Funny**
+︙**Funny**
 \`ascii\`, \`avatar\`, \`dicksize\`,
 \`howgay\`, \`rate\`, 
 
-<a:gifoporo:854036186868088872>︙**Gifs**
+︙**Gifs**
 \`boy\`, \`girl\`, \`anime\`,
 \`animal\`, \`baby\`, \`couple\`,
 \`emoji\`, 
 
-<a:photooporo:854036253778247742>︙**Photos** 
-\`Pboy\`, \`Pgirl\`, \`Panime\`,
-\`Panimal\`, \`Pbaby\`, \`Pcouple\`,
-\`Pemoji\`
+︙**Photos** 
+\`+boy\`, \`+girl\`, \`+anime\`,
+\`+animal\`, \`+baby\`, \`+couple\`,
+\`+emoji\`
 
-<a:textoporo:823650640541909012>︙**Texts**
+︙**Texts**
 \`textkurd\` (tk) , \`textenglish\` (te)
 \`textarab\` (ta) , \`textturk\` (tt) 
 \`textpersian\` (tp)
