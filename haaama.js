@@ -13,7 +13,7 @@ const prefix = "+";
 client.on("ready", async () => {
   console.log(`ready!`);
   client.user
-       .setActivity(`${Prefix}help | ${client.guilds.cache.size} Server`, { type: "PLAYING" })
+       .setActivity(`${Prefix}help `, { type: "PLAYING" })
        .setActivity(`Renon`)
     .catch(error => console.log(error));
 });
