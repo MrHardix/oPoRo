@@ -48,7 +48,7 @@ module.exports = {
 \`textarab\` (ta) , \`textturk\` (tt) 
 \`textpersian\` (tp)
 
-[Server](https://discord.gg/VWuQfQfjc9) **-** [Invite oPoRo](https://discord.com/api/oauth2/authorize?client_id=814608707412295780&permissions=8&scope=bot)
+[Server](https://discord.gg/65X5Gfkq) **-** [Invite Renon](https://discord.com/api/oauth2/authorize?client_id=779009713027022898&permissions=8&scope=bot)
 
 `)
     .setFooter(`${message.author.username}`)
