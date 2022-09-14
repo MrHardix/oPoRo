@@ -5,7 +5,7 @@ const { Prefix, Token, Color } = require("./config.js");
 client.commands = new Discord.Collection();
 client.aliases = new Discord.Collection();
 client.db = require("quick.db");
-but(client)
+
 
 client.login('Nzc5MDA5NzEzMDI3MDIyODk4.GFDZbd.vErNHaUJuBfk6VXljeUAsACxH3B7l1fd1URqbs');
 const prefix = "+";
