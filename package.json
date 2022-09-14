@@ -1,37 +1,25 @@
 {
-  "//1": "describes your app and its dependencies",
-  "//2": "https://docs.npmjs.com/files/package.json",
-  "//3": "updating this file will download and update your packages",
-  "name": "hello-express",
-  "version": "0.0.1",
-  "description": "A simple Node app built on Express, instantly up and running.",
-  "main": "haaama.js",
+  "name": "carlo",
+  "version": "1.0.0",
+  "description": "[ Support Server ](https://discord.gg/XdNmSPPDQ3)",
+  "main": "index.js",
   "scripts": {
-    "start": "node haaama.js"
+    "start": "node index.js"
   },
+  "author": "Carlo#2826",
+  "license": "GPL-3.0",
   "dependencies": {
-    "express": "^4.17.1",
-    "discord.js": "^12.3.1",
+    "@discordjs/opus": "^0.3.3",
+    "discord-ytdl-core": "^4.1.3",
     "discord-buttons": "^4.0.0",
-    "fs": "^0.0.2",
-    "node-fetch": "^2.6.1",
+    "discord.js": "^12.4.1",
+    "ffmpeg-static": "^4.2.7",
     "figlet": "^1.5.0",
-    "util": "^0.12.3",
-    "novelcovid": "^3.0.0",
-    "quick.db": "^7.1.1",
-    "ms": "^2.1.2",
-    "weather-js": "^2.0.0"
-  },
-  "engines": {
-    "node": "12.x"
-  },
-  "repository": {
-    "url": "https://glitch.com/edit/#!/hello-express"
-  },
-  "license": "MIT",
-  "keywords": [
-    "node",
-    "glitch",
-    "express"
-  ]
+    "lyrics-finder": "^21.4.0",
+    "node.js": "0.0.1-security",
+    "quick.db": "^7.1.3",
+    "string-progressbar": "^1.0.1",
+    "youtube-sr": "^1.0.4",
+    "ytdl-core": "^4.0.0"
+  }
 }
