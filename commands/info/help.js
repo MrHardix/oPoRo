@@ -44,14 +44,23 @@ module.exports = {
 
 `)
 
+`)
+    
  const disbut = require("discord-buttons")
  let button = new disbut.MessageButton()
         .setStyle('url')
         .setLabel('Invite')
         .setURL('https://discord.com/api/oauth2/authorize?client_id=779009713027022898&permissions=8&scope=bot');////سيرفرك
 
-helpEmbed.setTimestamp();
-    return message.channel.send({ embed : helpEmbed , buttons : [button] }).catch(console.error);
+ let button1 = new disbut.MessageButton()
+        .setStyle('url')
+        .setLabel('Support')
+        .setURL(`https://discord.gg/PXWdGengNe`);
+
+    helpEmbed.setTimestamp();
+
+    return message.channel.send({ embed : helpEmbed , buttons : [button,button1] }).catch(console.error);
   }
 };
+
 
