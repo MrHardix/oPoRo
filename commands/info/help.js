@@ -41,21 +41,23 @@ module.exports = {
 \`textkurd\` (tk) , \`textenglish\` (te)
 \`textarab\` (ta) , \`textturk\` (tt) 
 \`textpersian\` (tp)
+
 `)
 
-const disbut = require("discord-buttons")
+ const disbut = require("discord-buttons")
  let button = new disbut.MessageButton()
         .setStyle('url')
         .setLabel('Invite')
-        .setURL('https://discord.com/api/oauth2/authorize?client_id=776824647080738828&permissions=8&scope=bot');////سيرفرك
+        .setURL('https://discord.com/api/oauth2/authorize?client_id=779009713027022898&permissions=8&scope=bot');////سيرفرك
 
  let button1 = new disbut.MessageButton()
         .setStyle('url')
         .setLabel('Support')
-        .setURL(`https://discord.gg/2YE6JQRDYc`);
+        .setURL(`https://discord.gg/PXWdGengNe`);
 
     helpEmbed.setTimestamp();
 
     return message.channel.send({ embed : helpEmbed , buttons : [button,button1] }).catch(console.error);
   }
 };
+
