@@ -1,19 +1,20 @@
 const Discord = require("discord.js");
+const { MessageEmbed } = require("discord.js");
 const { Prefix } = require("../../config.js");
 
 module.exports = {
   name: "help",
-  aliases: ["h"],
-  description: "Display all commands and descriptions",
-  cooldown: 3,
-  edesc: "Type help to get a short preview of all Commands, Type help <COMMANDNAME> to get extended information about this one command!",
-  execute(message) {
-    let commands = message.client.commands.array();
-     
-    let helpEmbed = new MessageEmbed()
-    .setFooter(message.author.username, message.author.displayAvatarURL)
-    .setColor('F2254C')
-    .setTitle("Help Command")
+  aliases: ["h", "Help"],
+  description: "Show Help Command",
+  usage: "Help",
+  run: async(client, message, args) => {
+ 
+    
+    
+    let embed = new MessageEmbed()
+    .setColor("RANDOM")
+    .setTitle(`Help Renon!`)
+
     .setDescription(`
  
 ︙**Info** 
@@ -37,25 +38,18 @@ module.exports = {
 \`Pboy\`, \`Pgirl\`, \`Panime\`,
 \`Panimal\`, \`Pbaby\`, \`Pcouple\`,
 \`Pemoji\`
-︙**Texts**
+<a:textoporo:823650640541909012>︙**Texts**
 \`textkurd\` (tk) , \`textenglish\` (te)
 \`textarab\` (ta) , \`textturk\` (tt) 
 \`textpersian\` (tp)
+[Server](https://discord.gg/VWuQfQfjc9) **-** [Invite Renon](https://discord.com/api/oauth2/authorize?client_id=779009713027022898&permissions=8&scope=bot)
 `)
-
-const disbut = require("discord-buttons")
- let button = new disbut.MessageButton()
-        .setStyle('url')
-        .setLabel('Invite')
-        .setURL('https://discord.com/api/oauth2/authorize?client_id=776824647080738828&permissions=8&scope=bot');////سيرفرك
-
- let button1 = new disbut.MessageButton()
-        .setStyle('url')
-        .setLabel('Support')
-        .setURL(`https://discord.gg/2YE6JQRDYc`);
-
-    helpEmbed.setTimestamp();
-
-    return message.channel.send({ embed : helpEmbed , buttons : [button,button1] }).catch(console.error);
+    .setFooter(`${message.author.username}`)
+  //  .setImage(``)
+  //  .setTimestamp();
+    message.react(`✅`)
+ 
+      return message.channel.send(embed);
+    
   }
 };
