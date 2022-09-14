@@ -42,7 +42,6 @@ module.exports = {
 \`textkurd\` (tk) , \`textenglish\` (te)
 \`textarab\` (ta) , \`textturk\` (tt) 
 \`textpersian\` (tp)
-[Server](https://discord.gg/bfM6xNMyT7) **-** [Invite Renon](https://discord.com/api/oauth2/authorize?client_id=779009713027022898&permissions=8&scope=bot)
 `)
 
 const disbut = require("discord-buttons")
