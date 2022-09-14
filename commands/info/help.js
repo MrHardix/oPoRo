@@ -13,7 +13,7 @@ module.exports = {
     
     let embed = new MessageEmbed()
     .setColor("RANDOM")
-    .setTitle(`Help Renon!`)
+    .setTitle(`Help Plus Bot!`)
 
     .setDescription(`
  
@@ -42,7 +42,7 @@ module.exports = {
 \`textkurd\` (tk) , \`textenglish\` (te)
 \`textarab\` (ta) , \`textturk\` (tt) 
 \`textpersian\` (tp)
-[Server](https://discord.gg/VWuQfQfjc9) **-** [Invite Renon](https://discord.com/api/oauth2/authorize?client_id=779009713027022898&permissions=8&scope=bot)
+[Server](https://discord.gg/VWuQfQfjc9) **-** [Invite Plus Bot](https://discord.com/api/oauth2/authorize?client_id=779009713027022898&permissions=8&scope=bot)
 `)
     .setFooter(`${message.author.username}`)
   //  .setImage(``)
