@@ -50,7 +50,7 @@ module.exports = {
         .setLabel('Invite')
         .setURL('https://discord.com/api/oauth2/authorize?client_id=779009713027022898&permissions=8&scope=bot');////سيرفرك
 
-
+helpEmbed.setTimestamp();
     return message.channel.send({ embed : helpEmbed , buttons : [button] }).catch(console.error);
   }
 };
