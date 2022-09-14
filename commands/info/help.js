@@ -1,9 +1,6 @@
 const { MessageEmbed } = require("discord.js");
 const { Prefix } = require("../../config.js");
 
-  const prefix = (",");
-  
-
 module.exports = {
   name: "help",
   aliases: ["h"],
