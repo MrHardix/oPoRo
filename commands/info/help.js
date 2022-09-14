@@ -27,9 +27,6 @@ module.exports = {
 \`mute\`, \`unmute\`, \`clear\`
 \`lock\`, \`unlock\`, \`slowmode\`
 \`nick\`, \`hide\`, \`unhide\` 
-︙**Funny**
-\`ascii\`, \`avatar\`, \`dicksize\`,
-\`howgay\`, \`rate\`, 
 ︙**Gifs**
 \`boy\`, \`girl\`, \`anime\`,
 \`animal\`, \`baby\`, \`couple\`,
