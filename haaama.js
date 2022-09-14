@@ -8,7 +8,7 @@ client.db = require("quick.db");
 const but = require("discord-buttons")
 but(client)
 
-client.login('Nzc5MDA5NzEzMDI3MDIyODk4.GXvcj_.IAcngCef3T4S22wocT9tyzBfp8IXi9IKqrjI4U');
+client.login('');
 const prefix = "+";
 
 /// Token Prefix danewa ⬆️ 
