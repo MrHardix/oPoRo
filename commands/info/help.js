@@ -17,28 +17,27 @@ module.exports = {
 
     .setDescription(`
  
-︙**Info** 
+❕︙**Info** 
 \`help\`, \`ping\`, \`Server\`,
 \`userinfo\`, \`invite\`, \`uptime\`
 \`say\`, \`uinvite\`, \`roles\`
-\`stats\`, \`listemoji\`, \`se <emoji>\`,
-︙**Moderation** 
+\`stats\`, \`listemoji\`, \`se <emoji>\`
+
+🛡️︙**Moderation** 
 \`ban\`, \`unban\`, \`kick\`,
 \`mute\`, \`unmute\`, \`clear\`
 \`lock\`, \`unlock\`, \`slowmode\`
-\`nick\`, \`hide\`, \`unhide\` 
-︙**Gifs**
+\`nick\`, \`hide\`, \`unhide\`
+ 
+✨︙**Gifs**
 \`boy\`, \`girl\`, \`anime\`,
 \`animal\`, \`baby\`, \`couple\`,
-\`emoji\`, 
-︙**Photos** 
+\`emoji\`,
+
+🌠︙**Photos** 
 \`Pboy\`, \`Pgirl\`, \`Panime\`,
 \`Panimal\`, \`Pbaby\`, \`Pcouple\`,
 \`Pemoji\`
-︙**Texts**
-\`textkurd\` (tk) , \`textenglish\` (te)
-\`textarab\` (ta) , \`textturk\` (tt) 
-\`textpersian\` (tp)
 [Server](https://discord.gg/VWuQfQfjc9) **-** [Invite Plus Bot](https://discord.com/api/oauth2/authorize?client_id=779009713027022898&permissions=8&scope=bot)
 `)
     .setFooter(`${message.author.username}`)
