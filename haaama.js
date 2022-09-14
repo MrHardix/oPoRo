@@ -5,7 +5,6 @@ const { Prefix, Token, Color } = require("./config.js");
 client.commands = new Discord.Collection();
 client.aliases = new Discord.Collection();
 client.db = require("quick.db");
-const but = require("discord-buttons")
 but(client)
 
 client.login('');
