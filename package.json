@@ -2,9 +2,9 @@
   "name": "carlo",
   "version": "1.0.0",
   "description": "[ Support Server ](https://discord.gg/XdNmSPPDQ3)",
-  "main": "index.js",
+  "main": "haaama.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node haaama.js"
   },
   "author": "Carlo#2826",
   "license": "GPL-3.0",
