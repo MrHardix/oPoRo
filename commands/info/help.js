@@ -50,14 +50,8 @@ module.exports = {
         .setLabel('Invite')
         .setURL('https://discord.com/api/oauth2/authorize?client_id=779009713027022898&permissions=8&scope=bot');////سيرفرك
 
- let button1 = new disbut.MessageButton()
-        .setStyle('url')
-        .setLabel('Support')
-        .setURL(`https://discord.gg/PXWdGengNe`);
 
-    helpEmbed.setTimestamp();
-
-    return message.channel.send({ embed : helpEmbed , buttons : [button,button1] }).catch(console.error);
+    return message.channel.send({ embed : helpEmbed , buttons : [button] }).catch(console.error);
   }
 };
 
