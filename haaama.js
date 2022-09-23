@@ -16,7 +16,7 @@ client.on("ready", async () => {
   console.log(`ready!`);
   client.user
        .setActivity(`${Prefix}help `, { type: "PLAYING" })
-       .setActivity(`Renon`)
+       .setActivity(`Apex Bot`)
     .catch(error => console.log(error));
 });
 
