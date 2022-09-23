@@ -13,7 +13,7 @@ module.exports = {
     
     let embed = new MessageEmbed()
     .setColor("RANDOM")
-    .setTitle(`Help Renon!`)
+    .setTitle(`Help Apex Bot!`)
 
     .setDescription(`
  
@@ -38,7 +38,7 @@ module.exports = {
 \`Pboy\`, \`Pgirl\`, \`Panime\`,
 \`Panimal\`, \`Pbaby\`, \`Pcouple\`,
 \`Pemoji\`
-[Server](https://discord.gg/VWuQfQfjc9) **-** [Invite Renon](https://discord.com/api/oauth2/authorize?client_id=863826484430897205&permissions=8&scope=bot)
+[Server](https://discord.gg/VWuQfQfjc9) **-** [Invite Apex Bot](https://discord.com/api/oauth2/authorize?client_id=863826484430897205&permissions=8&scope=bot)
 `)
     .setFooter(`${message.author.username}`)
   //  .setImage(``)
