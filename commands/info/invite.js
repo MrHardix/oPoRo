@@ -16,7 +16,7 @@ module.exports = {
     .setTitle(`Invite`)
 
     .setDescription(`
-[click here](https://discord.com/api/oauth2/authorize?client_id=779009713027022898&permissions=8&scope=bot)    
+[click here](https://discord.com/api/oauth2/authorize?client_id=863826484430897205&permissions=8&scope=bot)    
 `)
     .setFooter(`${message.author.username}`)
     .setImage(``)
