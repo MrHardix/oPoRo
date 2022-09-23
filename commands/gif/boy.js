@@ -9,7 +9,7 @@ module.exports = {
   usage: "Gif",
   run: async (client, message, args) => {
    
-    let replies = ["https://cdn.discordapp.com/attachments/1018808352798687262/1019667762756464671/boy-avatar.gif","https://media.discordapp.net/attachments/746824654840135761/987325334703726682/Man_PP_Gif_80.gif"];
+    let replies = ["https://media.discordapp.net/attachments/746824654840135761/987127927273558056/a_8f99812e69ff22f78829bac6f85eef38.gif","https://media.discordapp.net/attachments/746824654840135761/987127927508443166/a_9b5f3e0e86c961d9e84350cf5a802d78.gif"];
 
     let result = Math.floor((Math.random() * replies.length));
     
