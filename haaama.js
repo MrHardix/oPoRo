@@ -7,7 +7,7 @@ client.aliases = new Discord.Collection();
 client.db = require("quick.db");
 
 
-client.login('ODYzODI2NDg0NDMwODk3MjA1.GhKOIu.oEZ84KRLPC4u7i2pCnnK0vqwQMHnTjrGOMqAWw');
+client.login('ODYzODI2NDg0NDMwODk3MjA1.GsJX4-.gtZJn2in8zYShgetAErxwhSN9cT-Nu-vq6DmuQ');
 const prefix = "+";
 
 /// Token Prefix danewa ⬆️ 
