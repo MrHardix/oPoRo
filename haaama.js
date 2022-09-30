@@ -7,7 +7,7 @@ client.aliases = new Discord.Collection();
 client.db = require("quick.db");
 
 
-client.login('ODYzODI2NDg0NDMwODk3MjA1.GsJX4-.gtZJn2in8zYShgetAErxwhSN9cT-Nu-vq6DmuQ');
+client.login('OTE3ODE5NjQxNTU0OTUyMjYy.GXCC8m.dDmIFBWePq2JXyVkE8vplHrB7eLLlts4_Uhr_4');
 const prefix = "+";
 
 /// Token Prefix danewa ⬆️ 
@@ -16,7 +16,7 @@ client.on("ready", async () => {
   console.log(`ready!`);
   client.user
        .setActivity(`${Prefix}help `, { type: "PLAYING" })
-       .setActivity(`Apex Bot`)
+       .setActivity(`Renon`)
     .catch(error => console.log(error));
 });
 
