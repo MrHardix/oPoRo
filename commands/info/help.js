@@ -13,7 +13,7 @@ module.exports = {
     
     let embed = new MessageEmbed()
     .setColor("RANDOM")
-    .setTitle(`Help Renon Bot!`)
+    .setTitle(`Help Renon!`)
 
     .setDescription(`
  
@@ -22,7 +22,6 @@ module.exports = {
 \`userinfo\`, \`invite\`, \`uptime\`
 \`say\`, \`uinvite\`, \`roles\`
 \`stats\`, \`listemoji\`, \`se <emoji>\`
-
 🛡️︙**Moderation** 
 \`ban\`, \`unban\`, \`kick\`,
 \`mute\`, \`unmute\`, \`clear\`
@@ -33,12 +32,12 @@ module.exports = {
 \`boy\`, \`girl\`, \`anime\`,
 \`animal\`, \`baby\`, \`couple\`,
 \`emoji\`,
-
 🌠︙**Photos** 
 \`Pboy\`, \`Pgirl\`, \`Panime\`,
 \`Panimal\`, \`Pbaby\`, \`Pcouple\`,
 \`Pemoji\`
-[Server](https://discord.gg/VWuQfQfjc9) **-** [Invite Renon](https://discord.com/api/oauth2/authorize?client_id=917819641554952262&permissions=8&scope=bot)
+[Server](https://discord.gg/VWuQfQfjc9) **-** [Invite Renon](https://discord.com/api/oauth2/authorize?client_id=1004707925392113725&permissions=8&scope=bot)
+`)
     .setFooter(`${message.author.username}`)
   //  .setImage(``)
   //  .setTimestamp();
